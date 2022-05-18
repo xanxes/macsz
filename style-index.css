@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Soage";
+  src: url("Soage.otf");
+}
+
+html
+{scroll-behavior: smooth;
+  
+}
+
+.titulo-dois
+{padding-top: 50px;}
+
+body
+{height: 100vh;
+display: flex;
+flex-direction: column;
+background-color: #FCEDE3;
+}
+
+.logo
+{height: 3rem;
+}
+
+header
+{display: flex;
+height: 70px;
+width: 100%;
+background-color: #93684C;
+justify-content: space-between;
+padding-left: 70px;
+align-items: center;
+
+}
+  
+nav
+{display: flex;
+gap: 30px;
+padding-right:60px;
+
+}
+
+.menu
+
+{font-family: 'Mulish', sans-serif;
+text-decoration: none;
+color: white;
+height: 1.5rem
+
+}
+
+
+.menu:hover
+{background-color: #6F4C35;
+  border-radius: 10px;
+  transition: all 0.5s;
+
+}
+
+#one
+{
+padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
+align-items: center;
+}
+
+.btn { cursor: pointer;
+  background-color: #dfa375;
+background-image: linear-gradient(315deg, #dfa375 0%, #c58e7f 74%);
+ }
+ 
+ .btn {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  font-family: 'Mulish', sans-serif;
+
+  
+ }
+ 
+.titulo-a
+{color: white;}
+
+ .container-button
+ {display: flex;
+
+}
+
+
+ .btn:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+ }
+ 
+ .btn:active {
+  transform: scale(0.95);
+ }
+
+.mulher-centro
+{height: 45rem;
+  padding-top: 50px;
+}
+
+.container
+{display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+}
+
+.titulo
+{font-size: 5rem;
+text-align: center;
+font-family: Soage;
+}
+
+.texto
+{display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 1.5rem;
+font-family: 'Mulish', sans-serif;
+}
+
+.texto-enfase
+{font-size: 1.5rem;
+text-align: center;
+font-family: 'Mulish', sans-serif;}
+
+section
+{height: 100vh;}
+
+

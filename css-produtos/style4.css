@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.links-container{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;  
+}
+.links-container a{
+    color: #fff;
+}
+section{
+    height: 90vh;
+
+}
+.produtos-container, .sucesso-container,.seemore-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FCEDE3;
+}
+
+
+
+
+
+      
+ 

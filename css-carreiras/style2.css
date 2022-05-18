@@ -1,0 +1,335 @@
+@font-face {
+  font-family: "Soage";
+  src: url("/Soage.otf");
+}
+
+* {margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  color: white}
+  
+body
+{height: 200vh;
+display: flex;
+flex-direction: column;
+background-color: #FCEDE3;
+}
+
+.logo
+{height: 3rem;
+  padding-left: 76px;
+}
+
+header
+{display: flex;
+height: 60px;
+background-color: #93684C;
+justify-content: space-between;
+padding-left: 0px;
+align-items: center;
+
+}
+  
+nav
+{display: flex;
+gap: 30px;
+padding-right:60px;
+
+ 
+
+}
+
+nav a
+
+{font-family: 'Mulish', sans-serif;
+text-decoration: none;
+color: white;
+height: 1.5rem
+
+}
+
+
+nav a:hover
+{background-color: #6F4C35;
+  border-radius: 10px;
+  transition: all 0.5s;
+
+}
+
+main
+{
+padding-right: 40px;
+padding-left: 40px;
+display: flex;
+flex-grow: 1;
+margin-top: 95px;
+height: 100%;
+
+
+}
+
+.container
+{display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.titulo
+{font-size: 5rem;
+text-align: center;
+font-family: Soage;
+padding-left: 338px;
+padding-right: 324px;
+color: black;
+
+
+}
+
+.imagem
+{padding-bottom;
+  position: absolute;
+  width: 658px;
+  height: 435px;
+  left: 980px;
+  top: 675px;
+}
+
+.texto
+{display: flex;
+flex-direction: column;
+text-align: center;
+font-size: 1.5rem;
+font-family: 'Mulish', sans-serif;
+padding-right: 99px;
+padding-left: 111px;
+text-align: justify;
+color: black;
+
+}
+
+.imgvaga{
+  position: absolute;
+  width: 658px;
+  height: 4px;
+  left: 800px;
+  top: 550px;
+
+}
+
+.lista{
+position: absolute;
+width: 398px;
+height: 300px;
+left: 130px;
+top: 580px;
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 400px;
+font-size: 24px;
+line-height: 40px;
+color: black;
+
+
+}
+
+.vagas{
+  position:absolute;
+  color: black;
+
+  left: 97px;
+  top: 470px;
+  font-family: Soage;
+  font-weight: 400px;
+  font-size: 64px;
+  line-height: 91px;
+}
+
+
+.vagas-class{
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: 490px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 160px;
+  font-family: Soage;
+  font-size: 2.5rem;
+  text-align:initial;
+  color: black;
+
+}
+
+h2, ul, li{
+  font-family: 'Mulish';
+  color: black;
+
+}
+
+.listagem{
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: 60px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 20px;
+  font-size: 1.3rem;
+  font-family: 'Mulish', sans-serif;
+  text-align: justify;
+  color: black;
+
+  
+}
+
+.imgvaga{
+  position: absolute;
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: -79px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 650px;
+
+}
+
+.beneficios-class{
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: 1001px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 180px;
+  font-family: Soage;
+  font-size: 3rem;
+  text-align:initial;
+  color: black;
+
+}
+
+.listagembeneficios{
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: 1100px;
+  font-weight: 400px;
+  line-height: 40px;
+  left:180px;
+  font-size: 1.2rem;
+  font-family: 'Mulish', sans-serif;
+  text-align: justify;
+  color: black;
+
+  
+}
+
+.beneficiosimg{
+  position: absolute;
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top:995px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 810px;
+
+}
+
+.linkfinal{
+  width: 398px;
+  position: absolute;
+  height: 300px;
+  top: 1510px;
+  font-weight: 400px;
+  line-height: 40px;
+  left: 300px;
+  font-size: 3rem;
+  font-family: Soage;
+  text-align: center;
+  color: black;
+
+}
+
+.saibamais{
+  left: 470px;
+  position: absolute;
+  margin-top: 945px;
+  color: black;
+
+
+}
+
+.link{
+  position: absolute;
+  width: 962px;
+  height: 96px;
+  left: 433px;
+  top: 1907px;
+  color: black;
+
+
+}
+
+.slide {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 7px 10px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  top: 1500px;
+  left: 840px;
+}
+
+.slide i {
+  opacity: 0;
+  font-size: 13px;
+  transition: 0.2s;
+  position: absolute;
+  right: 10px;
+  top: 21px;
+  transition: transform 1;
+}
+
+.slide div {
+  transition: transform 0.8s;
+}
+
+.slide:hover div {
+  transform: translateX(-6px);
+}
+
+.slide::after {
+  content: "";
+  background-color: #9c775f;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+}
+
+.slide:hover i {
+  opacity: 1;
+  transform: translateX(-6px);
+}
+/* End of Slide Button  */
+
+
+.containerfinal{
+  display: flex;
+}
+.finalmais{
+  font-size: 1.4rem;
+  justify-content: center;
+  color: white;
+  font-family: 'Mulish';
+
+}

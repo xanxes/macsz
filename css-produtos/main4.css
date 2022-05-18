@@ -1,0 +1,77 @@
+.title-container{
+    position: absolute;
+    width: 540px;
+    height: 590px;
+    left: 750px;
+    top: 174px;
+    font-family: 'Soage Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 71px;
+    display: flex;
+    color: #000; 
+}
+.titulo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Soage Personal Use';
+    font-weight: 400;
+    font-size: 50px;
+    color: #000; 
+    
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+    
+}
+.card
+{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 50px;
+    margin: 20px;
+    width: 386px;
+    transition: all 0.3s ease-out;
+    background-color:#FFF;
+    border-left: 3px solid#6E4C35;
+    
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+   
+  .card p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+}
+.fotos-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 137px;
+  
+}
+
+.picture-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 137px;
+}
+.videos-container{
+  display: flex;
+ justify-content: center;
+  align-items: center;
+  gap: 120px;
+  }
+
+  
